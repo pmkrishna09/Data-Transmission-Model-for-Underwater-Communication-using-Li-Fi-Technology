@@ -1,0 +1,54 @@
+**ESP32-CAM**
+ESP32-CAM is a low-cost ESP32-based development board with onboard camera, small in size. It is an ideal solution for IoT application, prototypes constructions and DIY projects.
+The board integrates WiFi, traditional Bluetooth and low power BLE , with 2 high- performance 32-bit LX6 CPUs. It adopts 7-stage pipeline architecture, on-chip sensor, Hall sensor, temperature sensor and so on, and its main frequency adjustment ranges from 80MHz to 240MHz.
+Fully compliant with WiFi 802.11b/g/n/e/i and Bluetooth 4.2 standards, it can be used as a master mode to build an independent network controller, or as a slave to other host MCUs to add networking capabilities to existing devices.
+ESP32-CAM can be widely used in various IoT applications. It is suitable for home smart devices, industrial wireless control, wireless monitoring, QR wireless identification, wireless positioning system signals and other IoT applications. It is an ideal solution for IoT applications.
+
+**FEATURES**
+•	Up to 160MHz clock speed，Summary computing power up to 600 DMIPS
+•	Built-in 520 KB SRAM, external 4MPSRAM
+•	Supports UART/SPI/I2C/PWM/ADC/DAC
+•	Support OV2640 and OV7670 cameras, Built-in Flash lamp.
+•	Support image WiFI upload
+•	Support TF card
+•	Supports multiple sleep modes.
+•	Embedded Lwip and FreeRTOS
+•	Supports STA/AP/STA+AP operation mode
+•	Support Smart Config/AirKiss technology
+•	Support for serial port local and remote firmware upgrades (FOTA)
+
+
+**SPECIFICATIONS**
+•	SPI Flash: default 32Mbit
+•	RAM: built-in 520 KB+external 4MPSRAM
+•	Dimension: 27*40.5*4.5（±0.2）mm/1.06*1.59*0.18”
+•	Bluetooth: Bluetooth 4.2 BR/EDR and BLE standards
+•	Wi-Fi: 802.11b/g/n/e/i
+•	Support Interface: UART, SPI, I2C, PWM
+•	Support TF card: maximum support 4G
+•	IO port: 9
+•	Serial Port Baud-rate: Default 115200 bps
+•	Image Output Format: JPEG( OV2640 support only ), BMP, GRAYSCALE
+•	Spectrum Range: 2412 ~2484MHz
+•	Antenna: onboard PCB antenna, gain 2dBi
+•	Transmit Power: 802.11b: 17±2 dBm (@11Mbps);
+802.11g: 14±2 dBm (@54Mbps);
+802.11n: 13±2 dBm (@MCS7)
+
+•	Receiving Sensitivity: CCK, 1 Mbps : -90dBm;
+CCK, 11 Mbps: -85dBm;
+6 Mbps (1/2 BPSK): -88dBm;
+54 Mbps (3/4 64-QAM): -70dBm; MCS7 (65 Mbps, 72.2 Mbps): -67dBm
+
+•	Power consumption: Turn off the flash: 180mA@5V
+Turn on the flash and adjust the brightness to the maximum: 310mA@5V
+Deep-sleep: the lowest power consumption can reach 6mA@5V Moderm-sleep: up to 20mA@5V
+Light-sleep: up to 6.7mA@5V
+
+•	Security: WPA/WPA2/WPA2-Enterprise/WPS
+•	Power supply range: 5V
+•	Operating temperature: -20 °C ~ 85 °C
+•	Sorage environment: -40 °C ~ 90 °C, < 90%RH
+•	Weight: 10g
+
+

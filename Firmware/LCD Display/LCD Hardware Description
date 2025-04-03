@@ -1,0 +1,28 @@
+           A 16x2 LCD display is a type of liquid crystal display that is frequently used in electronic devices. It has the ability to show 16 characters on each of its two rows, providing a total of 32 characters for displaying alphanumeric information. 
+
+
+The 16×2 LCD pinout is shown below.
+•	Pin1 (Ground/Source Pin): This is a GND pin of display, used to connect the GND terminal of the microcontroller unit or power source.
+ 
+•	Pin2 (VCC/Source Pin): This is the voltage supply pin of the display, used to connect the supply pin of the power source. 
+•	Pin3 (V0/VEE/Control Pin): This pin regulates the difference of the display, used to connect a changeable POT that can supply 0 to 5V. 
+•	Pin4 (Register Select/Control Pin): This pin toggles among command or data register, used to connect a microcontroller unit pin and obtains either 0 or 1(0 = data mode, and 1 = command mode). 
+•	Pin5 (Read/Write/Control Pin): This pin toggles the display among the read or writes operation, and it is connected to a microcontroller unit pin to get either 0 or 1 (0 = Write Operation, and 1 = Read Operation). 
+•	Pin 6 (Enable/Control Pin): This pin should be held high to execute Read/Write process, and it is connected to the microcontroller unit & constantly held high. 
+•	Pins 7-14 (Data Pins): These pins are used to send data to the display. These pins are connected in two-wire modes like 4-wire mode and 8-wire mode. In 4-wire mode, only four pins are connected to the microcontroller unit like 0 to 3, whereas in 8-wire mode, 8-pins are connected to microcontroller unit like 0 to 7. 
+•	Pin15 (+ve pin of the LED): This pin is connected to +5V 
+•	Pin 16 (-ve pin of the LED): This pin is connected to GND.
+ 
+
+**Features of LCD16x2** 
+The features of this LCD mainly include the following. 
+
+•	The operating voltage of this LCD is 4.7V-5.3V 
+•	It includes two rows where each row can produce 16-characters. 
+•	The utilization of current is 1mA with no backlight 
+•	Every character can be built with a 5×8 pixel box 
+•	The alphanumeric LCDs alphabets & numbers 
+•	Is display can work on two modes like 4-bit & 8-bit
+
+•	These are obtainable in Blue & Green Backlight 
+•	It displays a few custom generated characters

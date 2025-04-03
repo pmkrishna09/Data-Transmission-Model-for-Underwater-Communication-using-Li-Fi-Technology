@@ -1,0 +1,19 @@
+You can check the complete details about PyCharm Software for Image Transmission using ESP32-CAM 
+(https://www.jetbrains.com/pycharm/)
+
+    PyCharm is an integrated development environment (IDE) used for programming in Python. It provides code analysis, a graphical debugger, an integrated unit tester, integration with version control systems, and supports web development with Django. PyCharm is developed by the Czech company JetBrains.
+It is cross-platform, working on Microsoft Windows, macOS, and Linux. PyCharm has a Professional Edition, released under a proprietary license and a Community Edition released under the Apache License. PyCharm Community Edition is less extensive than the Professional Edition.
+Features
+•	Coding assistance and analysis, with code completion, syntax and error highlighting, linter integration, and quick fixes 
+•	Project and code navigation: specialized project views, file structure views and quick jumping between files, classes, methods and usages 
+•	Python code refactoring: including rename, extract method, introduce variable, introduce constant, pull up, push down and others 
+•	Support for web frameworks: Django, web2py and Flask 
+•	Integrated Python debugger 
+•	Integrated unit testing, with line-by-line coverage 
+•	Google App Engine Python development 
+•	Version control integration: unified user interface for Mercurial, Git, Subversion, 
+Perforce and CVS with changelists and merge
+
+•	Scientific tools integration: integrates with IPython Notebook, has an interactive Python console, and supports Anaconda as well as multiple scientific packages including Matplotlib and NumPy.
+
+In this Project, Python used for Image Transmission using ESP-32 Cam Module.

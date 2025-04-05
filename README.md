@@ -1,20 +1,22 @@
 # 📊🚢 Data-Transmission-Model-for-Underwater-Communication-using-Li-Fi-Technology 👨🏻‍💻🎯
 Project on developing a data transmission model using Li-Fi
 
-## Overview / Project Description 🔎📝
+## 🔎📝 Overview / Project Description 
 This project involves designing and implementing a **Li-Fi-based data transmission model** for **text, audio, and image transfer** in underwater environments. It serves as an alternative to RF signals for efficient **high-speed communication**. Underwater communication has traditionally relied on radio frequency (RF), acoustic waves, or sonar-based systems. However, these methods face high attenuation, limited bandwidth, and interference. This project explores an alternative approach using Li-Fi (Light Fidelity) technology for wireless underwater data transmission, enabling efficient transfer of text, audio, and images without relying on RF signals.
 
 By leveraging LED-based light modulation, the system transmits digital information through optical signals, providing high-speed and energy-efficient communication in underwater environments.
 
-### *WHAT is Li-Fi ?* 💡
+### *WHAT is **Li-Fi** ?* 💡
 Li-Fi (light fidelity) is a bidirectional wireless system that transmits data via LED or infrared light. It was first unveiled in 2011 and, unlike wifi, which uses radio frequency, LiFi technology only needs a light source with a chip to transmit an internet signal through light waves. LiFi technology can reach speeds of up to 224 Gbps. LiFi is a wireless technology that uses light to transmit data.
 This is an extraordinary advance over today's wireless networks. LiFi multiplies the speed and bandwidth of wifi, 3G and 4G. The latter have a limited capacity and become saturated when the number of users surfing increases, causing them to crash, reducing speeds and even interrupting the connection.
 
 The motivation behind utilizing Visible Light Communication, “Li-Fi technology can easily communicate through water rather than RF. Visible Light communication can easily penetrate through water. 
 This Technology used for easy navigation for underwater exploration.”
 
+---
 
-## Features 🧩
+
+## 🧩 Features 
 ✅ Optical Wireless Communication (Li-Fi): Uses LED light pulses to transmit data underwater.
 
 ✅ ESP32-CAM Integration: Captures and transmits real-time images.
@@ -25,31 +27,35 @@ This Technology used for easy navigation for underwater exploration.”
 
 ✅ Alternative to RF & Acoustic Waves: Overcomes the limitations of RF waves in water.
 
-## Components Used ⚙️
-1️⃣ Hardware Components:
-ESP32-CAM: For image processing and transmission
+---
 
-High-power LEDs: Modulates data as light pulses
+## ⚙️ Components Used
+#### 1️⃣ *Hardware Components*:
+**ESP32-CAM:** For image processing and transmission
 
-Photodiodes/LDRs: Detects light signals and converts them back to digital data. Solar panels etc
+**High-power LEDs:** Modulates data as light pulses
 
-Li-Fi transmitter and Receiver: Converts electrical data into light pulses for transmission & Detects and converts received light pulses back into electrical data.
+**Photodiodes/LDRs:** Detects light signals and converts them back to digital data. Solar panels etc.
 
-Microcontroller (Arduino/ESP32): Controls the modulation and demodulation of signals
+**Li-Fi transmitter and Receiver:** Converts electrical data into light pulses for transmission & Detects and converts received light pulses back into electrical data
 
-Audio Transmission Module: Facilitates voice communication
+**Microcontroller (Arduino/ESP32):** Controls the modulation and demodulation of signals
 
-LCD Display: Visual output for transmitted text
+**Audio Transmission Module:** Facilitates voice communication
 
-2️⃣ Software & Algorithms:
+**LCD Display:** Visual output for transmitted text
 
-Python (PyCharm) for Image Processing
+#### 2️⃣ *Software & Algorithms*:
 
-X-CTU Software for Text Transmission
+**Python (PyCharm)** for Image Processing
 
-Arduino IDE for Embedded Programming
+**X-CTU Software** for Text Transmission
+
+**Arduino IDE** for Embedded Programming
 
 MATLAB (optional) for signal analysis
+
+---
 
 
 ## Working 👩🏻‍💻📓✍🏻💡
@@ -65,19 +71,24 @@ Additionally, the system transmits images and videos, with the received content 
 **Li-Fi: Sending More Than Just Light Underwater**
 Li-Fi isn't just for high-speed data in air! This technology can also be a game-changer for underwater communication. Let's see how it transmits different types of information:
 
+--
 **TEXT TRANSMISSION:**
 
 Text Chat Under the Waves: Text messages can travel underwater with Li-Fi. First, the text is converted into a digital format, like a series of ones and zeros. Then, these digital bits are encoded by rapidly changing the intensity of light pulses from LEDs. Special sensors called photodiodes pick up these light variations at the receiving end, converting them back into digital information, allowing divers or underwater devices to exchange clear text messages.
 
+--
 **AUDIO TRANSMISSION:**
 
 Underwater Conversations: Li-Fi can even transmit voices! Similar to text, the sound is first converted into a digital signal. Then, this digital information is used to control how bright the transmitted light beam becomes. By decoding these variations in light intensity, Li-Fi allows for clear voice communication between divers or underwater equipment.
 
+--
 **IMAGE TRANSMISSION:**
 
 Seeing the Underwater World with Li-Fi: Imagine sending images and videos underwater! Li-Fi makes it possible. An image is divided into tiny squares called pixels, and each pixel's color information is used to create unique light pulses. Videos are simply a collection of images shown very quickly, so Li-Fi transmits them by breaking them down into individual frames and sending them one after another. At the receiving end, the information is reassembled, allowing for the reconstruction of clear images and videos. 
 
-## For real-time industrial Marine Applications
+---
+ 
+## ⚡📈For real-time industrial Marine Applications ⚓
 Industrial marine applications require data transfer over long distances (several meters to kilometers).
 Regular LEDs may work for small-scale lab models, but high-power LEDs or lasers are required for real-world deployment.
 Collimated laser beams (focused light) reduce scattering and increase transmission range.
@@ -91,23 +102,23 @@ Industrial systems require continuous operation, often in deep-sea or offshore e
 High-power LEDs & laser diodes are designed for efficiency, durability, and long operational life.
 Energy-efficient power supplies & battery backup systems ensure uninterrupted operation.
 
-🔹 Essential Equipment for Industrial Marine Li-Fi Systems
+### 🔹 Essential Equipment for Industrial Marine Li-Fi Systems
 
-1️⃣ Transmission (Sender) Equipment
+#### 1️⃣ *Transmission (Sender) Equipment*
 
-✅ High-Power Blue/Green LEDs or Laser Diodes (450-495 nm) – For maximum underwater penetration
+✅ **High-Power Blue/Green LEDs or Laser Diodes (450-495 nm)** – For maximum underwater penetration
 
-✅ Modulation Circuit – Converts digital data into light pulses
+✅ **Modulation Circuit** – Converts digital data into light pulses
 
-✅ Embedded Controller (ESP32, Raspberry Pi, FPGA) – Manages high-speed data transmission
+✅ **Embedded Controller (ESP32, Raspberry Pi, FPGA)** – Manages high-speed data transmission
 
-✅ Underwater Optical Lens System – Focuses and directs the light beam efficiently
+✅ **Underwater Optical Lens System** – Focuses and directs the light beam efficiently
 
-✅ Power Management System – Provides a stable energy source for deep-sea use
+✅ **Power Management System** – Provides a stable energy source for deep-sea use
 
-✅Data Source: Can be a camera, microphone (for audio), or a sensor module
+✅ **Data Source:** Can be a camera, microphone (for audio), or a sensor module
 
-2️⃣ Reception (Receiver) Equipment
+#### 2️⃣ *Reception (Receiver) Equipment*
 
 ✅ High-Sensitivity Photodiodes / Avalanche Photodetectors (APDs) – Converts light signals into electrical signals
 
@@ -118,32 +129,50 @@ Energy-efficient power supplies & battery backup systems ensure uninterrupted op
 ✅ Display & Data Storage System – Outputs received text, images, and video
 
 
-**📡 Communication & Networking** 
 
-o Li-Fi Base Stations → Placed strategically to ensure signal continuity
+### **📡 Communication & Networking** 
 
-o Hybrid RF + Li-Fi System → For seamless transition between air-water communication
+- 📡 **Li-Fi Base Stations →** Placed strategically to ensure signal continuity
 
-o Multiple Wavelength Transmission → Improves range and reliability
+- 🗼 **Hybrid RF + Li-Fi System →** For seamless transition between air-water communication
 
-o IoT Integration → Sends collected data to cloud-based marine research platforms
+- 📊 **Multiple Wavelength Transmission →** Improves range and reliability
+
+- 🌐 **IoT Integration →** Sends collected data to cloud-based marine research platforms
+
+---
 
 ## 🚀🚢 Applications & Use Cases
 
-🌊 Underwater Wireless Communication: Enables data transmission without RF interference.
+**🌊 Underwater Wireless Communication:** Enables data transmission without RF interference.
 
-🏗️ Industrial & Military Applications: Can be used in defense, naval operations, and underwater robotics.
+**🏗️ Industrial & Military Applications:** Can be used in defense, naval operations, and underwater robotics.
 
-🐠 Marine Research: Supports data collection and monitoring of aquatic environments.
+**🐠 Marine Research:** Supports data collection and monitoring of aquatic environments.
 
-🚢 Diver-to-Diver Communication: Facilitates efficient information sharing for deep-sea divers.
+**🚢 Diver-to-Diver Communication:** Facilitates efficient information sharing for deep-sea divers.
 
-🔹 Autonomous Underwater Vehicles (AUVs) & Remotely Operated Vehicles (ROVs)
+🔹 **Autonomous Underwater Vehicles (AUVs) & Remotely Operated Vehicles (ROVs)**
+
 Supports real-time video transmission and remote control for deep-sea exploration.
 Enhances search and rescue missions by enabling high-speed underwater data exchange.
 
-🔹 Underwater Surveillance & Defense
+🔹 **Underwater Surveillance & Defense**
+
 Offers secure and encrypted communication for naval operations and maritime defense.
 Assists in monitoring and tracking underwater threats, such as unauthorized submarines and robotic drones.
+
+---
+
+<details>
+<summary>📐Block Diagram</summary>
+
+![Transmission Module Block Diagram](https://github.com/pmkrishna09/Data-Transmission-Model-for-Underwater-Communication-using-Li-Fi-Technology/blob/a668866a01e57694cf2d6d052a70049c0d89b591/Circuit%20Designs%20%26%20Data%20Flow/Transmission%20Module.jpg) 
+
+![Receiving Module Block Diagram](https://github.com/pmkrishna09/Data-Transmission-Model-for-Underwater-Communication-using-Li-Fi-Technology/blob/a668866a01e57694cf2d6d052a70049c0d89b591/Circuit%20Designs%20%26%20Data%20Flow/Receiving%20Module.jpg) 
+
+
+</details>
+
 
 

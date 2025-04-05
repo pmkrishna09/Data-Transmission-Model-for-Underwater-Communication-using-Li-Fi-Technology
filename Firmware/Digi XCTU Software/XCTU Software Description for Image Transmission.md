@@ -1,4 +1,4 @@
-# 💻⚙️ Digi XCTU Software
+# 💻⚙️ Digi XCTU Software for Text Transmission
 
 - XCTU is a free, multi-platform application compatible with Windows, MacOS and Linux
 - Graphical Network View for simple wireless network configuration and architecture

@@ -6,7 +6,6 @@ The **Arduino UNO** acts as the **controller and communicator** in this project.
 
 ---
 
-
 The Arduino Uno is a popular, open-source microcontroller board based on the ATmega328P, featuring 14 digital and 6 analog pins, a USB connection, and a power jack, all controlled by the Arduino IDE software. 
 
 ### 💻 **Hardware Features**
@@ -75,5 +74,5 @@ The Arduino Uno is a popular, open-source microcontroller board based on the ATm
 - Integrate **Real-Time Clock (RTC)** for time-stamping data.
 - Add **EEPROM logging** for offline data storage.
 
----
+
 

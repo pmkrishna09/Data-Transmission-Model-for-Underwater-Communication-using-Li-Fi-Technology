@@ -1,4 +1,4 @@
-# 📊🚢 Data-Transmission-Model-for-Underwater-Communication-using-Li-Fi-Technology 👨🏻‍💻🎯
+# 📊🚢 Data Transmission Model for Underwater Communication using Li-Fi Technology 👨🏻‍💻🎯
 Project on developing a data transmission model using Li-Fi
 
 ## 🔎📝 Overview / Project Description 
@@ -7,7 +7,7 @@ This project involves designing and implementing a **Li-Fi-based data transmissi
 By leveraging LED-based light modulation, the system transmits digital information through optical signals, providing high-speed and energy-efficient communication in underwater environments.
 
 ### *WHAT is **Li-Fi** ?* 💡
-Li-Fi (light fidelity) is a bidirectional wireless system that transmits data via LED or infrared light. It was first unveiled in 2011 and, unlike wifi, which uses radio frequency, LiFi technology only needs a light source with a chip to transmit an internet signal through light waves. LiFi technology can reach speeds of up to 224 Gbps. LiFi is a wireless technology that uses light to transmit data.
+Li-Fi (Light Fidelity) is a bidirectional wireless system that transmits data via LED or infrared light. It was first unveiled in 2011 and, unlike wifi, which uses radio frequency, LiFi technology only needs a light source with a chip to transmit an internet signal through light waves. LiFi technology can reach speeds of up to 224 Gbps. LiFi is a wireless technology that uses light to transmit data.
 This is an extraordinary advance over today's wireless networks. LiFi multiplies the speed and bandwidth of wifi, 3G and 4G. The latter have a limited capacity and become saturated when the number of users surfing increases, causing them to crash, reducing speeds and even interrupting the connection.
 
 The motivation behind utilizing Visible Light Communication, “Li-Fi technology can easily communicate through water rather than RF. Visible Light communication can easily penetrate through water. 
